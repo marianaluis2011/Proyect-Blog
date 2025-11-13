@@ -3,19 +3,3 @@
     margin: 0;
     box-sizing: border-box;
 }
-#carouselExampleCaptions{
-    height: 100px !important;
-}
-main{
-    display: flex;
-}
-.mainizquierda{
-    width: 70vw;
-}
-.mainderecha{
-    width: 30vw;
-}
-.categorias{
-    display: flex;
-    flex-direction: column;
-}
