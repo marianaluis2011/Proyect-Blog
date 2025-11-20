@@ -11,18 +11,10 @@
   object-fit: cover;
 }
 
-.login {
-    padding: 10px 20px;
-    background-color: #afad4c;
-    color: black;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  #btnSuscribir {
+  .boton {
   padding: 12px 24px;
   background-color: #007bff;  /* Azul */
-  color: white;
+  color: white !important;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -30,7 +22,7 @@
   transition: background-color 0.3s ease;
 }
 
-#btnSuscribir:hover {
+.boton:hover {
   background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
 }
 
@@ -126,9 +118,6 @@
 
 #btnEnviar:hover {
   background-color: #1e7e34;
-}
-nav {
-  background-color: #3f21da;
 }
 
 .footerconteiner{
