@@ -120,24 +120,3 @@
   background-color: #1e7e34;
 }
 
-.footerconteiner{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.columnainstagram{
-    width: 100%;
-    margin: 20px;
-}
-.columnawhatsapp{
-    width: 100%;
-    margin: 20px;
-}
-.columnatwiter{
-    width: 100%;
-    margin: 20px;
-}
-.columnaOperativa{
-    width: 100%;
-    margin: 20px;
-}
