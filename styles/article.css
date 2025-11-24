@@ -3,6 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-#publish {
-  background-color: var(--color-detalles3);
-    }
+section{
+  width: 98%;
+}

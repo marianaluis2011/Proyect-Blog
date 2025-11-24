@@ -13,3 +13,12 @@
 .btn:hover{
   background-color: var(--coloreclipse) !important;
 }
+.carousel-inner > img{
+  height: 500px !important;
+}
+.carousel-item > img{
+  height: 500px !important;
+}
+section{
+  width: 98%;
+}

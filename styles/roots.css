@@ -7,6 +7,18 @@
     --color-blanco: white;
 }
 
-body {
-    background-color: var(--color-principal);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+  width: 150px !important; 
+  height: 150px !important;
+  border-radius: 100% !important;
+  object-fit: cover;
+}
+.btn:hover{
+  background-color: var(--coloreclipse) !important;
 }
