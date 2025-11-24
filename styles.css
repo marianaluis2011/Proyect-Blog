@@ -4,119 +4,12 @@
     box-sizing: border-box;
 }
 
-#logo {
+.logo {
   width: 150px !important; 
   height: 150px !important;
   border-radius: 100% !important;
   object-fit: cover;
 }
-
-  .boton {
-  padding: 12px 24px;
-  background-color: #007bff;  /* Azul */
-  color: white !important;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.btn:hover{
+  background-color: var(--coloreclipse) !important;
 }
-
-.boton:hover {
-  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
-}
-
-/* ============================= */
-/* Estilos para el modal */
-/* ============================= */
-.modal {
-  display: none; /* Oculto por defecto */
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto; /* Scroll si el contenido es largo */
-  background-color: rgba(0,0,0,0.5); /* Fondo semi-transparente */
-}
-
-#btnSuscribir {
-  background-color: var(--color-detalles1);
-}
-
-#btnIniciarSesion {
-  background-color: var(--color-detalles3);
-    }
-
-#btnContacto {
-  background-color: var(--color-detalles2)
-    }
-
-/* Contenido del modal */
-.modal-contenido {
-  background-color: #fff;
-  margin: 10% auto; /* Centrado vertical y horizontal */
-  padding: 20px 30px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 400px;
-  position: relative;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-/* Botón de cerrar (la "X") */
-.cerrar {
-  color: #aaa;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.cerrar:hover {
-  color: #000;
-}
-
-/* ============================= */
-/* Estilos para el formulario */
-/* ============================= */
-.modal-contenido form {
-  display: flex;
-  flex-direction: column;
-}
-
-.modal-contenido label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.modal-contenido input[type="text"],
-.modal-contenido input[type="email"] {
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-  box-sizing: border-box;
-}
-
-/* Botón de enviar */
-#btnEnviar {
-  padding: 12px;
-  background-color: #28a745; /* Verde */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-#btnEnviar:hover {
-  background-color: #1e7e34;
-}
-
