@@ -3,9 +3,61 @@
     --color-detalles1:#6f49e4;
     --color-detalles2:#9f70ed;
     --color-detalles3:#cf98f6;
+    --coloreclipse: #e22a7f;
     --color-blanco: white;
 }
 
-body {
-    background-color: var(--color-principal);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----NAVBAR---- */
+.logo {
+  width: 100px !important; 
+  height: 100px !important;
+  border-radius: 100% !important;
+  border: none !important;
+  object-fit: cover;
+}
+.btn:hover{
+  background-color: var(--coloreclipse) !important;
+}
+nav > div > h1  {
+  font-family: "Rock Salt", cursive !important;
+}
+.navbar .btn {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  line-height: 1 !important;   
+  border-radius: 4px !important;
+  text-align: center !important;
+}
+/* responsive */
+@media (max-width: 576px) {
+
+  .logo {
+    width: 70px;
+  }
+
+  nav h1 {
+    font-size: 1.1rem;
+  }
+
+  .navbar .btn {
+    padding: 2px 8px !important;
+    line-height: 1 !important;
+    font-size: 0.8rem;
+  }
+  .navbar-nav {
+    gap: 10px !important;
+  }
+
+  .navbar {
+    height: auto !important;
+    padding: 4px !important;
+  }
 }

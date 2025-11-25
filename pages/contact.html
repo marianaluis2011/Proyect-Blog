@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>: : ECLIPSE : :</title>
+    <link rel="stylesheet" href="../styles/roots.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="bg-black p-5 justify-content-center d-flex flex-column align-items-center text-light">
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top h-5 border-bottom p-1 bg-black">
+      <div class="container-fluid gap-5">
+        <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo navbar"></a>
+        <h1 class="navbar-brand text-light">La Noche en Tucumán</h1>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 column-gap-5 column-lg-gap-5">
+            <li class="nav-item">
+              <a class="nav-link active btn btn-light" aria-current="page" href="./aboutus.html">
+                <p>Nosotros</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active btn btn-light " aria-current="page" href="">
+                <p>Contacto</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active btn btn-light" aria-current="page" href="./login.html">
+                <p>Iniciar Sesión</p>
+              </a>
+            <li class="nav-item">
+              <a class="nav-link active btn btn-light" aria-current="page" type="button" data-bs-toggle="modal"
+                data-bs-target="#suscribirse">
+                <p>Suscribirse</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="suscribirse" tabindex="-1" aria-labelledby="suscribirseLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="suscribirseLabel">Suscribirse al blog</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="formSuscripcion">
+              <div class="mb-3">
+                <label class="form-label">Nombre:</label>
+                <input type="text" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Correo electrónico:</label>
+                <input type="email" class="form-control" required>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-light border">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <h1 class="mt-5">Hello, world!</h1>
+
+    <footer class="text-light border-top pt-3">
+        <div class="footerconteiner d-flex gap-5 w-100">
+            <div class="columnaLogo"><img src="../images/logo.png" alt="">
+            </div>
+            <div class="columnaRedes">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <p>Podes visitarnos en nuestro instagran</p>
+                <i class="bi bi-whatsapp"></i>
+                <p>Pedi tus entradas por nuetro WhatsApp</p>
+                <i class="bi bi-twitter-x"></i>
+                <p>Conocenos mas de tu noche magica por nuestro X</p>
+            </div>
+            <div class="columnaOperativa">
+                <p>Horaios de atencion de 09:30-00:00</p>
+                <p>Direc : gral paz 675</p>
+                <p>Tel:381123456789</p>
+                <p>Pasa las mejores noches de tucuman con nuestra ayuda</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

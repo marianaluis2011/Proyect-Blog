@@ -1,31 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#logo {
-  width: 150px !important; 
+.logo {
+  width: 150px !important;
   height: 150px !important;
   border-radius: 100% !important;
   object-fit: cover;
 }
 
-  .boton {
-  padding: 12px 24px;
-  background-color: #007bff;  /* Azul */
-  color: white !important;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.btn:hover {
+  background-color: var(--coloreclipse) !important;
 }
 
 #btnSuscribir:hover {
   background-color: #0056b3; 
 }
-
 
 .modal {
   display: none; 
@@ -39,18 +31,27 @@
   background-color: rgba(0,0,0,0.5); 
 }
 
-#btnSuscribir {
-  background-color: var(--color-detalles1);
+.carousel-inner>img {
+  height: 500px !important;
+}
+
+.carousel-item>img {
+  height: 500px !important;
+}
+
+@media (min-width: 768px) {
+  section {
+    flex-direction: row !important;
+  }
 }
 
 #btnIniciarSesion {
   background-color: var(--color-detalles3);
-    }
+}
 
 #btnContacto {
   background-color: var(--color-detalles2)
-    }
-
+}
 
 .modal-contenido {
   background-color: #fff;
@@ -62,7 +63,6 @@
   position: relative;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
-
 
 .cerrar {
   color: #aaa;
@@ -78,7 +78,6 @@
 .cerrar:hover {
   color: #000;
 }
-
 
 .modal-contenido form {
   display: flex;
@@ -160,3 +159,7 @@
     display: block;
 }
 
+iframe {
+  display: flex !important;
+  flex-direction: column;
+}
