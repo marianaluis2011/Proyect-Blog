@@ -29,6 +29,7 @@
   }
 
   iframe {
-    flex-direction: column !important;
+    display: flex !important;
+    flex-direction: column;
   }
 }
