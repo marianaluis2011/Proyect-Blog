@@ -1,0 +1,40 @@
+.personal > img {
+    width: 200px !important; 
+    border-radius: 100% !important;
+}
+
+.imgContent {
+    
+
+}
+
+.imgVictor:hover {
+    transform: translate() !important ;
+    transition: transform 0.5s ease !important;
+    content: url(/images/Aboutus/Vicman2.jpg) !important;  
+}
+
+.imgNaza:hover {
+    transform: translate() !important ;
+    transition: transform 0.5s ease !important;
+    content: url(/images/Aboutus/Naza2.jpg) !important;  
+}
+
+.imgMariana:hover {
+    transform: translate() !important ;
+    transition: transform 0.5s ease !important;
+    content: url(/images/Aboutus/Mariana2.jpg) !important;  
+}
+
+.imgCristian:hover {
+    transform: translate() !important ;
+    transition: transform 0.5s ease !important;
+    content: url(/images/Aboutus/Cristian2.jpg) !important;  
+}
+
+.imgChatGTP:hover {
+    transform: translate() !important ;
+    transition: transform 0.5s ease !important;
+    content: url(/images/Aboutus/chatGTP2.jpg) !important;  
+}
+
