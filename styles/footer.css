@@ -1,0 +1,33 @@
+.footerconteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.columnainstagram{
+    width: 100%;
+    margin: 20px;
+}
+
+.columnawhatsapp{
+    width: 100%;
+    margin: 20px;
+}
+
+.columnatwiter{
+    width: 100%;
+    margin: 20px;
+}
+
+.columnaOperativa{
+    width: 100%;
+    margin: 20px;
+}
+
+.GaleriadeImagenes {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr; 
+}
