@@ -33,7 +33,7 @@
 }
 
 .imgChatGTP:hover {
-    transform: translate() !important ;
+    transform: translate() !important;
     transition: transform 0.5s ease !important;
     content: url(/images/Aboutus/chatGTP2.jpg) !important;  
 }

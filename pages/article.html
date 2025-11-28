@@ -4,14 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>: : ECLIPSE : :</title>
-  <link rel="stylesheet" href="../styles/roots.css">
+  <title>: : Article : :</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+  <link rel="stylesheet" href="../styles/footer.css">
   <link rel="stylesheet" href="../styles/article.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
 </head>
 
 <body class="bg-black p-5 justify-content-center d-flex flex-column align-items-center text-light">
@@ -28,21 +33,21 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 column-gap-5 column-lg-gap-5">
             <li class="nav-item">
-              <a class="nav-link active btn btn-light" aria-current="page" href="./aboutus.html">
+              <a class="nav-link active btn btn-primary text-light" aria-current="page" href="../pages/aboutus.html">
                 <p>Nosotros</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active btn btn-light " aria-current="page" href="./contact.html">
+              <a class="nav-link active btn btn-primary text-light" aria-current="page" href="../pages/contact.html">
                 <p>Contacto</p>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active btn btn-light" aria-current="page" href="./login.html">
+            <li class="nav-item p">
+              <a class="nav-link active btn btn-primary text-light" aria-current="page" href="../pages/login.html">
                 <p>Iniciar Sesión</p>
               </a>
             <li class="nav-item">
-              <a class="nav-link active btn btn-light" aria-current="page" type="button" data-bs-toggle="modal"
+              <a class="nav-link active btn btn-primary text-light" aria-current="page" type="button" data-bs-toggle="modal"
                 data-bs-target="#suscribirse">
                 <p>Suscribirse</p>
               </a>
@@ -237,29 +242,37 @@ Correo electrónico: magicmusicboxtv@gmail.com </p>
   </div>
 </section>
   </main>
-  <footer class="text-light border-top bg-black pt-3">
-    <div class="footerconteiner d-flex gap-5 w-100">
-      <div class="columnaLogo"><img src="../images/logo.png" alt="">
-      </div>
-      <div class="columnaRedes">
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <p>Podes visitarnos en nuestro instagran</p>
-        <i class="bi bi-whatsapp"></i>
-        <p>Pedi tus entradas por nuetro WhatsApp</p>
-        <i class="bi bi-twitter-x"></i>
-        <p>Conocenos mas de tu noche magica por nuestro X</p>
-      </div>
-      <div class="columnaOperativa">
-        <p>Horaios de atencion de 09:30-00:00</p>
-        <p>Direc : gral paz 675</p>
-        <p>Tel:381123456789</p>
-        <p>Pasa las mejores noches de tucuman con nuestra ayuda</p>
-      </div>
-    </div>
-  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-</body>
+  </body>
+  <footer class="text-light border-top bg-black pt-3">
+    <div class="footerconteiner d-xl-flex m-5 gap-5">
+      <div class="columnaLogo d-flex align-items-center justify-content-center m-4 w-20">
+        <img src="../images/logo.png" class="logo" alt="">
+      </div>
+      <div class="columnaRedes w-70">
+        <p>Pasa las mejores noches de Tucumán...</p>
+        <div class="conteinerInstagram d-flex">
+          <a href=""><i class="bi bi-instagram m-2"></i></a>
+          <p>Podes visitarnos en nuestro instagran</p>
+        </div>
+        <div class="conteinerWhatsapp d-flex">
+          <a href=""><i class="bi bi-whatsapp m-2"></i></a>
+          <p>Pedi tus entradas por nuestro WhatsApp</p>
+        </div>
+        <div class="conteinerWhatsapp d-flex">
+          <a href=""><i class="bi bi-twitter-x m-2"></i></a>
+          <p>Conocenos a traves de X</p>
+        </div>
+      </div>
+      <div class="columnaOperativa">
+        <p>Nuestras oficinas</p>
+        <p>Dirección : General Paz 675 1º piso oficina 2</p>
+        <p>Horarios de atencion de 18:00 a 12:00 pm</p>
+        <p>Telefono: 381-5149811</p>
+      </div>
+    </div>
+  </footer>
 
 </html>
